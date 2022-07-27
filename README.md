@@ -1,6 +1,15 @@
-## Multi X Transformers
+# Multi X Transformers
 
 A concise but fully-featured transformer, complete with a set of promising e**x**perimental features from various papers.
+
+## Installation
+### Create environment
+``` Bash
+conda create -n env_name python=3.9
+conda activate env_name
+pip install -r requirements.txt
+conda install pytorch torchvision torchaudio cudatoolkit -c pytorch -c nvidia
+```
 
 ## Usage
 
